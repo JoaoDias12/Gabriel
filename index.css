@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-weight:100;
+}
+
+.a {
+  height: 50rem;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.a h2 {
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+
+  color: black;
+}
+
+button {
+  background: red;
+  color: white;
+  
+  width: 10rem;
+  height:4rem;
+
+  border-radius: 1rem;
+}
+
+.b {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  position: absolute;
+
+  top: 0;
+}
